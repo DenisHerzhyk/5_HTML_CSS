@@ -1,0 +1,39 @@
+.block {
+    display: inline-block;
+    position: relative;
+}
+
+.photo {
+    height: 300px;
+    object-fit: cover;
+}
+
+.discount {
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+    padding: 5px 13px;
+    position: absolute;
+    top: 7px;
+    right: 0;
+}
+
+.button_block {
+
+    position: absolute;
+    background-color: rgba(255,255,255,0.7);
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    font-family: Roboto;
+    font-size: 15px;
+    background-color: white;
+    border: black 1px solid;
+    padding: 7px 15px;
+}

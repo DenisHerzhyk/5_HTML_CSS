@@ -1,0 +1,54 @@
+.box {
+  font-family: Roboto;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 400px;
+}
+.first {
+  align-items: center;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  font-weight: 600;
+}
+.animal,
+.name {
+  font-size: 15px;
+}
+.status {
+  color: rgb(158,156,158);
+  font-size: 13px;
+}
+.animal {
+   color: rgb(158,156,158);
+}
+
+.text {
+  line-height: 20px;
+  margin-left: 10px;
+}
+.number {
+  font-weight: 600;
+  background-color: rgb(65,147,241);
+  border-radius: 5px;
+  color: white;
+  padding: 6px 14px;
+  margin-left: auto;
+}
+.second {
+  margin-top: 7px;
+}
+
+.photo_block {
+    margin: 0;
+    height: 50px;
+    width: 50px;
+}
+.photo{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}

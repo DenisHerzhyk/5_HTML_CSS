@@ -1,0 +1,103 @@
+.box {
+    margin: 50px;
+    width: 390px;
+    border: rgb(200,200,200) 1px solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.first {
+    display: flex;
+    margin: 20px 20px 20px 15px;
+    align-items: center;
+}
+.space {
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+.text {
+    margin-left: 10px;
+    font-family: Arial;
+}
+.name {
+    font-weight: bold;
+    font-size: 17px;
+}
+.animal {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.status {
+    margin-top: 5px;
+    color: gray;
+    font-size: 14px;
+}
+.number {
+    font-size: 14px;
+    color: gray;
+}
+.title {
+    font-family: Arial;
+    color: gray;
+    font-size: 14px;
+    margin: 12px 0px 0px 15px;
+}
+
+.box_2 {
+    font-family: Arial;
+    width: 420px;
+}
+.item_1 {
+    display: flex;
+}
+.common {
+    display: flex;
+}
+.comment {
+    margin-top: 6px;
+    line-height: 23px;
+}
+.name_1 {
+    font-weight: bold;
+    font-size: 17px;
+}
+.name_2 {
+    margin-left: 5px;
+    color: gray;
+    font-size: 17px;
+}
+.text_1 {
+    margin-left: 10px;
+}
+.name_3 {
+    color: gray;
+    font-size: 17px;
+}
+.empty {
+    width: 173px;
+    background-color: gray;
+    border-radius: 7px 0px 0px 7px;
+}
+
+.item_2 {
+    border: gray 1px solid;
+    border-radius: 10px;
+    width: 340px;
+    margin: 20px 0px 15px 65px;
+    display: flex;
+}
+.text_2 {
+    margin: 10px 0px 10px 15px;
+}
+

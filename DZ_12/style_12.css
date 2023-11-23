@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 3000px;
+}
+
+.photo {
+    width: 40px;
+    border-radius: 50%;
+}
+.header {
+    position: fixed;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.box {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.button_1 {
+    margin-left: 600px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 7px 12px;
+}
+.button_2 {
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(230,230,234);
+    border-radius: 3px;
+    padding: 7px 12px;
+}

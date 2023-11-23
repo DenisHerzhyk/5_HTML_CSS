@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    height: 3000px;
+}
+
+.sidebar {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+}
+
+.photo_1,
+.photo_2,
+.photo_3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.photo_2,
+.photo_3 {
+    margin-top: 5px;
+}
+.sidebar_1 {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(33,34,37);
+}
+.sidebar_2 {
+    font-family: Arial;
+    flex: 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(50,48,54);
+    height: 100%;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.channels {
+    margin: 0px 20px;
+    color: rgb(156,154,156);
+    font-size: 13px;
+}
+.title {
+    margin: 0px 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.plus {
+    color: rgb(156,154,156);
+    font-size: 25px;
+}
+.info {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.channel_2,
+.channel_3 {
+    margin-top: 20px;
+}
